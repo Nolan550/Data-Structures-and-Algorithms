@@ -9,3 +9,8 @@ Each topic has its own folder with:
 - Explanation Comments
 - Example Usage
 - Notes or Diagrams
+
+  ## Folder Structure
+  - [Linked List](https://github.com/Nolan550/Data-Structures-and-Algorithms/tree/main/LinkedLists)
+  - [custom Array](https://github.com/Nolan550/Data-Structures-and-Algorithms/tree/main/Arrays)
+  - [Queue](https://github.com/Nolan550/Data-Structures-and-Algorithms/tree/main/Queue)
