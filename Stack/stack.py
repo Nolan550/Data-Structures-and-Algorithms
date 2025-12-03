@@ -33,20 +33,8 @@ class Stack:
     
     def getSize(self):
         return self.size
-    
-    
-    def display(self):
-        if self.top is None:
-            print("Stack is empty")
-            return
-        current = self.top
-        elements = []
-        while current:
-            elements.append(current.data)
-            current = current.next
-        print("Stack elements (top to bottom):", " -> ".join(map(str, elements)))
 
-    def displayonly(self):
+    def display(self):
         if self.top is None:
             print("Stack is empty")
             return
@@ -73,7 +61,7 @@ if __name__ == "__main__":
         s1.push(15)
         s1.push(16)
         s1.push(17)
-        s1.displayonly()
+        s1.display()
         print("The top element is:", s1.peek())
         print("Popped element:", s1.pop())
         s1.display()
