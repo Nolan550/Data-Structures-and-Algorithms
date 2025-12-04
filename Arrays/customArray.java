@@ -55,16 +55,10 @@ public class customArray{
         array1.add(87);
         array1.add(76);
         array1.add(743);
-        array1.add(23);
-        array1.add(71);
-        array1.add(55);
-        array1.add(90);
-        array1.add(27);
-        array1.add(77);
-        array1.add(222);
+        
 
         array1.print();
         System.out.println("The size of an array is:" + array1.size());
-        System.out.println( array1.get(30));
+        System.out.println( array1.get(3));
     }
 }
