@@ -11,7 +11,7 @@ Stacks are commonly used in:
 - Expression evaluation
 - Recursion(call stack)
 
----
+
 | Operation | Description |
 |-----------|-------------|
 | `push(data)`| Inserts an element at the top |
@@ -20,14 +20,14 @@ Stacks are commonly used in:
 | `is_empty()` | Checks if the stack is empty |
 |`display()` | Prints the stack from the top to bottom |
 
----
+
 
 ## Implementation Used: Linked List
 This stack is implemented in **Java** and **Python** programming languages using *Linked list* as the underlying storage structure.
 - Each node contains `data` and a `next` pointer
 - `top` stores the pointer to the most recent node
 
-  ---
+  
 
   ## Project Structure
   This folder contains *stack.py*, *stack.java*, and a *readme.md* file.
