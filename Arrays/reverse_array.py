@@ -1,4 +1,4 @@
-class customArray:
+class CustomArray:
     def __init__(self, capacity):
         self.data = [0] * capacity
         self.size = 0
@@ -10,12 +10,13 @@ class customArray:
         self.size += 1
     
     def resize(self):
+        new_capacity = len(self.data) * 2
+        new_data = [0] * new_capacity
 
-        newData = len(self.data) * 2
-        newdata = [0] * newData
         for i in range(self.size):
-            newdata[i] = self.data[i]
-        self.data = newdata
+            new_data[i] = self.data[i]
+
+        self.data = new_data
 
     def get(self, index):
         if index < 0 or index >= self.size:
@@ -24,10 +25,13 @@ class customArray:
     
     def removeAt(self, index):
         if index < 0 or index >= self.size:
-            raise IndexError("Index is out of Bounds")
+            raise IndexError("Index is out of bounds")
+
+        
         for i in range(index, self.size - 1):
             self.data[i] = self.data[i + 1]
-            self.size -= 1
+
+        self.size -= 1   
 
     def display(self):
         for i in range(self.size):
@@ -36,22 +40,20 @@ class customArray:
     def get_size(self):
         return self.size
     
+
 if __name__ == "__main__":
-    array = customArray(12)
+    array = CustomArray(12)
     array.add(23)
     array.add(34)
     array.add(56)
     array.add(21)
     array.add(29)
     array.add(87)
-    array.add(65)
-    array.add(54)
-    array.add(26)
-    array.add(66)
-    array.add(58)
+    array.add(43)
 
-    #array.display()
-    print(array.get_size())
-    array.removeAt(10)
+
+    print("Initial size:", array.get_size())
+    array.removeAt(6)
+    print("\nArray after removing index 6:")
     array.display()
-    print(array.get_size())
+    print("\nFinal size:", array.get_size())
