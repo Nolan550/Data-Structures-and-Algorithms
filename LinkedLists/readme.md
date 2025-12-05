@@ -24,6 +24,7 @@ A **Singly Linked List** stores each node with:
 
   ## Time Complexity (Singly Linked List)
   | Operation | Time Complexity |
+  | ----------|-----------------|
   | Append | O(n) |
   |Prepend | O(1) |
   | Delete by value | O(n) |
