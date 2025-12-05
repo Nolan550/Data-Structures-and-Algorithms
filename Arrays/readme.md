@@ -11,7 +11,7 @@ Unlike python's list, this array imitates the behavior of low-level arrays, incl
 ## Key Features
 | Feature | Description |
 |---------|------------- |
-| `insert(index, value)` | insert value at a position |
+| `insert(value)` | insert value at a position |
 | `delete(index)` | Remove value at an index |
 | `search(value)` | Find value and return index |
 |`update(index, value)` | Change value at index|
@@ -31,11 +31,11 @@ This folder contains CustomArray implementation done in **Java** and **Python** 
 ```
 python
 arr = CustomArray(5)
-arr.insert(0, 10)
-arr.insert(1, 11)
-arr.insert(2, 12)
-arr.insert(3, 13)
-arr.insert(4, 14)
+arr.insert(10)
+arr.insert(11)
+arr.insert(12)
+arr.insert(13)
+arr.insert(14)
 
 arr.display()
 
