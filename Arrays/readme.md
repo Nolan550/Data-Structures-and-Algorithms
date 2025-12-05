@@ -1,4 +1,4 @@
-# Linked Lists(Data Structures)
+# Custom Array(Data Structures)
 ## Overview
 A **Custom Array** is a user-defined implementation of an array data structure.
 Unlike python's list, this array imitates the behavior of low-level arrays, including:
