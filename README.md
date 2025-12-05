@@ -10,11 +10,11 @@ Each topic has its own folder with:
 - Example Usage
 - Notes or Diagrams
 
-  ## Data Structures
-  - [custom Array](Arrays/readme.md)
-  - [Linked List](LinkedLists/readme.md)
-  - [Stack](Stack/readme.md)
-  - [Queue](Queue/readme.md)
+## Data Structures
+- [custom Array](Arrays/readme.md)
+- [Linked List](LinkedLists/readme.md)
+- [Stack](Stack/readme.md)
+- [Queue](Queue/readme.md)
 
 
 ### Algorithms (Coming Soon)
@@ -23,10 +23,10 @@ Each topic has its own folder with:
 - Trees
 - Basic and Intermediate Graph Algorithms
 
-  ## Goals of this repository
-  - Understand how core data structures work internally
-  - Practice algorithm implementation using Python and Java
-  - Improve problem-solving and logical thinking
+## Goals of this repository
+- Understand how core data structures work internally
+- Practice algorithm implementation using Python and Java
+- Improve problem-solving and logical thinking
  
 ## Technologies Used
 - **Python** and **Java**
