@@ -33,3 +33,10 @@ Each topic has its own folder with:
 - Visual Studio Code
 - Git and GitHub
 - command-line tools
+
+## Contributions
+This is a student learning project, but feedback and suggestions are welcome  feel free to open issues or pull requests.
+
+## Final Notes 
+This repository will continue to grow with more data structures and algorithms as I advance in my studies.
+Thank you for visiting!
