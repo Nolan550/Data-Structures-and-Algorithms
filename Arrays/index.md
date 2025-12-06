@@ -46,7 +46,7 @@ Array elements: [10, 11, 12, 13, 14]
 
 ## What is Expected to learn
 - How arrays work internally
-- Manual memeory-like capacity simulation
+- Manual memory-like capacity simulation
 - Index-based insertion and deletion
 - Error handling for overflow and bounds
 
