@@ -1,8 +1,5 @@
 def linear_search(arr, target):
-    """
-    Performs linear search on the array.
-    Returns the index of target if found, otherwise -1.
-    """
+    
     for i in range(len(arr)):
         if arr[i] == target:
             return i
