@@ -1,0 +1,15 @@
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+markdown: GFM
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-gfm
+
+=======
+markdown: GFM
+theme: jekyll-theme-cayman
+>>>>>>> Stashed changes
+=======
+markdown: GFM
+theme: jekyll-theme-cayman
+>>>>>>> Stashed changes
