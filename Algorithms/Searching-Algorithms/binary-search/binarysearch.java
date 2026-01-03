@@ -13,13 +13,14 @@ public class binarysearch {
             }else if(arr[mid] < target){
                 low = mid + 1;
             }
+                
             else{
                 high = mid -1;
             }
         }
         return -1;
     }
-
+    
     public static void main(String[] args){
         int[] arr = {1,260,23,54,7,8,89,0};
         Arrays.sort(arr);
