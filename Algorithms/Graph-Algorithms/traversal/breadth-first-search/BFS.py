@@ -1,8 +1,8 @@
 from collections import deque
 
 def bfs(graph, start):
-    visited = set()          # To track visited nodes
-    queue = deque()          # FIFO queue
+    visited = set()          
+    queue = deque()          
 
     visited.add(start)
     queue.append(start)
@@ -17,7 +17,7 @@ def bfs(graph, start):
                 queue.append(neighbor)
 
 
-# Example usage
+
 graph = {
     'A': ['B', 'C'],
     'B': ['D', 'E'],
