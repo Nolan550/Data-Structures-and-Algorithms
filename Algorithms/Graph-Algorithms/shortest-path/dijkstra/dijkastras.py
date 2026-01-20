@@ -3,23 +3,23 @@ import heapq
 def dijkstra(graph, start):
    
 
-    # Step 1: Initialize distances and predecessors
+    
     distances = {node: float('inf') for node in graph}
     previous = {node: None for node in graph}
     distances[start] = 0
 
-    # Priority queue (min-heap)
+    
     priority_queue = [(0, start)]
 
-    # Step 2: Main loop
+    
     while priority_queue:
         current_distance, current_node = heapq.heappop(priority_queue)
 
-        # Skip outdated queue entries
+        
         if current_distance > distances[current_node]:
             continue
 
-        # Step 3: Relax edges
+        
         for neighbor, weight in graph[current_node]:
             new_distance = current_distance + weight
 
