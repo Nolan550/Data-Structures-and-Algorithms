@@ -3,13 +3,10 @@ import math
 
 
 def bellman_ford_adj(
-    graph: Dict[int, List[Tuple[int, float]]],  # {u: [(v, w), ...]}
+    graph: Dict[int, List[Tuple[int, float]]],  
     source: int
 ) -> Tuple[Optional[Dict[int, float]], Optional[Dict[int, int]], Optional[str]]:
-    """
-    Bellman-Ford using adjacency list representation
-    """
-    # Get all vertices
+    
     vertices = set(graph.keys())
     for neighbors in graph.values():
         for v, _ in neighbors:
@@ -20,7 +17,7 @@ def bellman_ford_adj(
     
     predecessor = {v: None for v in vertices}
     
-    # Relax |V|-1 times
+
     for _ in range(len(vertices) - 1):
         updated = False
         for u in graph:
@@ -33,7 +30,6 @@ def bellman_ford_adj(
         if not updated:
             break
     
-    # Check for negative cycle
     for u in graph:
         for v, weight in graph[u]:
             if (distance[u] != math.inf and 
@@ -43,7 +39,6 @@ def bellman_ford_adj(
     return distance, predecessor, None
 
 
-# Example usage - adjacency list version
 if __name__ == "__main__":
     graph = {
         0: [(1, -1), (2, 4)],
