@@ -11,10 +11,10 @@ Each topic has its own folder with:
 - Notes or Diagrams
 
 ## Data Structures
-- [custom Array](Arrays/index.md)
-- [Linked List](LinkedLists/readme.md)
-- [Stack](Stack/readme.md)
-- [Queue](Queue/readme.md)
+- [custom Array](Data-Structures/Arrays/index.md)
+- [Linked List](Data-Structures/LinkedLists/readme.md)
+- [Stack](Data-Structures/Stack/readme.md)
+- [Queue](Data-Structures/Queue/readme.md)
 
 
 ### Algorithms (Coming Soon)
