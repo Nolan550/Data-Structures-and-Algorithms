@@ -41,13 +41,6 @@ Examples:
 - Breadth-First Search (BFS)
 - Depth-First Search (DFS)
 
-### 4. Dynamic Programming
-Used to solve problems by breaking them into smaller overlapping subproblems.
-
-Examples:
-- Fibonacci (Memoization)
-- Knapsack Problem
-
 
 ## Learning Objectives
 
