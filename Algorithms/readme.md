@@ -13,7 +13,28 @@ The algorithms implemented here focus on:
 
 ## Folder Structure
 
-Each file in this directory represents a specific algorithm or a group of related algorithms.
+## Folder Structure
+
+```text
+graph/
+│
+├── traversal/              # Graph traversal algorithms
+│   ├── bfs.*
+│   ├── dfs.*
+│   └── README.md           # Traversal theory, complexity, and usage
+│
+├── shortest_path/          # Shortest path algorithms
+│   ├── dijkstra.*
+│   ├── bellman_ford.*
+│   └── README.md           # Shortest path explanations
+│
+├── mst/                    # Minimum Spanning Tree algorithms
+│   ├── kruskal.*
+│   ├── prim.*
+│   └── README.md           # MST theory and implementations
+│
+└── README.md               # (This file) Graph algorithms overview
+```
 
 ## Categories of Algorithms
 
@@ -64,3 +85,5 @@ Each algorithm implementation should include:
 Example:
 - Time Complexity: O(n log n)
 - Space Complexity: O(n)
+
+  
