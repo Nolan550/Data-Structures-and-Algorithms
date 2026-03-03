@@ -1,12 +1,31 @@
 # Graph Algorithms
 
-This folder contains implementations of **core graph algorithms** commonly used in
-computer science, networking, and algorithm design.
+## Overview
+This folder contains implementations of common graph algorithms used in computer science and problem-solving.  
+These algorithms are essential for understanding graph traversal, shortest paths, and connectivity in networks.
 
-The purpose of this directory is to provide a **high-level overview** of all graph-related
-algorithms in the repository. Each algorithm category is organized into its own subfolder,
-and **each subfolder contains its own `README.md`** with detailed explanations of the
-algorithms implemented there.
+---
 
+## Algorithms Included
+- **Breadth-First Search (BFS)** – Traverses a graph level by level.
+- **Depth-First Search (DFS)** – Explores a graph depth-wise.
+- **Dijkstra’s Algorithm** – Finds shortest paths from a source node.
+- **Bellman-Ford Algorithm** – Handles shortest paths with negative weights.
+- **Prim’s Algorithm** – Constructs a Minimum Spanning Tree (MST).
+- **Kruskal’s Algorithm** – Another method for finding MST.
+- **Topological Sort** – Orders nodes in a Directed Acyclic Graph (DAG).
 
+---
 
+## Features
+- Clean, modular implementations
+- Explanatory comments and examples
+- Time and space complexity analysis
+- Supports both adjacency list and adjacency matrix representations
+
+---
+
+## How to Run
+**Python:**
+```bash
+python nolan.py
