@@ -9,24 +9,4 @@ and **each subfolder contains its own `README.md`** with detailed explanations o
 algorithms implemented there.
 
 
-## Folder Structure
 
-```text
-graph/
-│
-├── traversal/              # Graph traversal algorithms
-│   ├── bfs.*
-│   ├── dfs.*
-│   └── README.md           # Traversal theory, complexity, and usage
-│
-├── shortest_path/          # Shortest path algorithms
-│   ├── dijkstra.*
-│   ├── bellman_ford.*
-│   └── README.md           # Shortest path explanations
-│
-├── mst/                    # Minimum Spanning Tree algorithms
-│   ├── kruskal.*
-│   ├── prim.*
-│   └── README.md           # MST theory and implementations
-│
-└── README.md               # (This file) Graph algorithms overview
