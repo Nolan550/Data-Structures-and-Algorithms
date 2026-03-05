@@ -17,7 +17,7 @@ Each topic has its own folder with:
 - [Queue](Data-Structures/Queue/readme.md)
 
 
-### Algorithms (Coming Soon)
+### Algorithms 
 - Searching Algorithms
 - Sorting Algorithms
 - Trees
