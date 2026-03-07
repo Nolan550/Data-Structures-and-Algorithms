@@ -43,10 +43,7 @@ Used to arrange data in a particular order (ascending or descending).
 
 Examples:
 - Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Merge Sort
-- Quick Sort
+
 
 ### 2. Searching Algorithms
 Used to find elements within a dataset.
